@@ -1,5 +1,5 @@
 ## StockSuggestionSystem 
- <a href="https://abhiuday3141-stocksuggestionsystem-stockapphome-dnqybx.streamlitapp.com/Stacked_LSTM">Demo<a>
+ <a href="https://abhiuday3141-stocksuggestionsystem-stockapphome-dnqybx.streamlitapp.com">Demo<a>
 
 
 In This Project I have build A stocks Suggestion system which gives you the best stock to buy on a given date out of 3 bank stocks namely Citi bank, JPMorgan and Morgan stanley
