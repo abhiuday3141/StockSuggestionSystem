@@ -22,7 +22,7 @@ from sklearn.metrics import mean_absolute_error as mae
 from sklearn.preprocessing import MinMaxScaler
 from keras.layers import Dense, Dropout, Embedding, Bidirectional
 
-im = Image.open("favicon.ico")
+im = Image.open("https://drive.google.com/file/d/1W1dXhq6ZajJWcjhRcXEQX11qgKpmtxI3/view?usp=sharing")
 st.set_page_config(
     page_title="Bank-Stock Prices",
     page_icon=im,
@@ -102,7 +102,7 @@ st.title("Bi-Directional LSTM model")
 model_expander=st.expander("Know about the model")
 model_expander.write("Here we use a Bi-directional LSTM and the details about the model are as follows:")
 
-image = Image.open('BIDirectionalLSTMmodel.jpg')
+image = Image.open('https://drive.google.com/file/d/1H71KjEvTyWogip2eQsqcYuRJ6nUIOF5r/view?usp=sharing')
 model_expander.image(image)
 stocks=("Wells Fargo","JP Morgan","Citi Bank","Morgan Stanley")
 Stock_mapped={
