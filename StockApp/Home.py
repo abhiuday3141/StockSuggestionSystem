@@ -18,12 +18,14 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.layers import LSTM
 import plotly.express as px
 from PIL import Image
+import requests
+from io import BytesIO
 from sklearn.metrics import mean_absolute_error as mae
 from sklearn.preprocessing import MinMaxScaler
 
 
 
-im = Image.open("https://drive.google.com/file/d/1W1dXhq6ZajJWcjhRcXEQX11qgKpmtxI3/view?usp=sharing")
+im = Image.open('StockApp/favicon.ico')
 st.set_page_config(
     page_title="Bank-Stock Prices",
     page_icon=im,
@@ -37,13 +39,13 @@ st.title("Stacked LSTM")
 LSTM=st.expander("Know More")
 with LSTM:
     st.write("A Stacked LSTM model is one where 2 or more LSTM's are connected together to improve the accuracy. The Diagram below explains it in the most simple terms")
-    st.image('https://drive.google.com/file/d/1tvw1bMaBy9LGdN-REni3DZmoPN4HP1vn/view?usp=sharing')
+    st.image('StockApp/StackedLSTMmodel.jpg')
 
 st.title("Bi-directional LSTM")
 LSTM=st.expander("Know More")
 with LSTM:
     st.write("A Bi-directional LSTM is an LSTM which extracts information from both the direction For instance here it takes into account both the prices before and after for prediction and training the model. The Diagram below explains it in the most simple terms")
-    st.image('https://drive.google.com/file/d/1zdL_2zka3Xne4EK9Hk7H4EmahsGxJI2o/view?usp=sharing')
+    st.image('StockApp/BIDirectionalLSTMmodel.jpg')
 
 
 
