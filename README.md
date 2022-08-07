@@ -16,8 +16,8 @@ In This Project I have build A stocks Suggestion system which gives you the best
 
 I have also hosted the demo App for giving a overview of how it works
  
-<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss1.jpg" width="500" title="hover text">
-<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss2.jpg" width="500" title="hover text">
-<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss3.jpg" width="500" title="hover text">
-<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss4.jpg" width="500" title="hover text">
+<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss1.jpg" width="700" title="hover text">
+<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss2.jpg" width="700" title="hover text">
+<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss3.jpg" width="700" title="hover text">
+<img src="https://github.com/abhiuday3141/StockSuggestionSystem/blob/master/Screenshots/ss4.jpg" width="700" title="hover text">
 
