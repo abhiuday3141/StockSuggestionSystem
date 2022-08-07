@@ -23,12 +23,12 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 
-im = Image.open("favicon.ico")
-st.set_page_config(
-    page_title="Bank-Stock Prices",
-    page_icon=im,
-    layout="wide",
-)
+# im = Image.open("favicon.ico")
+# st.set_page_config(
+#     page_title="Bank-Stock Prices",
+#     page_icon=im,
+#     layout="wide",
+# )
 st.title("Stocks Prediction App")
 
 st.write("Here I have build a web-app for 2 Models You can try both models by navigating from the Sidebar")
