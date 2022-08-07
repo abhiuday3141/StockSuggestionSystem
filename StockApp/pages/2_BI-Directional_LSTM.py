@@ -74,7 +74,7 @@ def LSTM_Predict(bank,timestep,pred_days,type):
     model.add(Dense(1, activation='sigmoid'))
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-    model.fit(X_train,y_train,validation_data=(X_test,y_test),epochs=2,batch_size=40,verbose=1)
+    model.fit(X_train,y_train,validation_data=(X_test,y_test),epochs=40,batch_size=40,verbose=1)
 
     predict_test=model.predict(X_test)
     error = mae(y_test,predict_test)
