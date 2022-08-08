@@ -25,7 +25,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 
-im = Image.open('favicon.ico')
+im = Image.open('StockApp/favicon.ico')
 st.set_page_config(
     page_title="Bank-Stock Prices",
     page_icon=im,
