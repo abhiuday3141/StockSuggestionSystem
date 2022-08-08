@@ -39,13 +39,13 @@ st.title("Stacked LSTM")
 LSTM=st.expander("Know More")
 with LSTM:
     st.write("A Stacked LSTM model is one where 2 or more LSTM's are connected together to improve the accuracy. The Diagram below explains it in the most simple terms")
-    st.image('StackedLSTMmodel.jpg')
+    st.image('StockApp/StackedLSTMmodel.jpg')
 
 st.title("Bi-directional LSTM")
 LSTM=st.expander("Know More")
 with LSTM:
     st.write("A Bi-directional LSTM is an LSTM which extracts information from both the direction For instance here it takes into account both the prices before and after for prediction and training the model. The Diagram below explains it in the most simple terms")
-    st.image('Bi-directional-info.jpg.jpg')
+    st.image('StockApp/Bi-directional-info.jpg.jpg')
 
 
 
